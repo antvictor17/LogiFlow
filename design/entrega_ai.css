@@ -1,0 +1,141 @@
+body {
+    background-color: orange;
+}
+
+/*aqui fica a personalização do header e suas divs*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #313131;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+}
+
+/*Pesquisa*/
+.search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search img {
+    width: 20px;
+    cursor: pointer;
+}
+
+/*Fim do header*/
+
+.Banners {
+    display: flex;
+    gap: 2px;
+    align-items: flex-start;
+}
+
+/*personalização do banner direito*/
+.bannerD {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;   
+}
+
+.botão {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #ff8c42;
+    padding: 10px 15px;
+    border-radius: 12px;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    box-shadow: 0 4px 0 #cc6f2f;
+}
+
+.botão img {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.botão span {
+    color: white;
+    font-weight: bold;
+}
+
+.botão:hover {
+    transform: translate(-5px);
+    box-shadow: 0 8px 0 #cc6f2f;
+}
+
+/*Banner esquerdo*/
+.bannerE {
+    background-color: #636363;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+
+    width: 60%;
+    margin: 20px;
+}
+
+.bannerE h1 {
+    margin-bottom: 20px;
+}
+
+.entrega {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #3a3a3a;
+    padding: 10px;
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+}
+
+.entrega button {
+    background-color: #28a745;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.entrega:hover {
+    background-color: #4a4a4a;
+}
+
+.entrega button:hover {
+    background-color: #1e7e34;
+}
